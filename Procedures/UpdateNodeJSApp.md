@@ -23,3 +23,7 @@ To update all dependencies in a NodeJS app:
 ## For Vite apps
 
 If the app is a Vite app, run `ncu '/vite|@vitejs' -u` instead of `ncu -u`.
+
+## Storybook
+
+To update storybook: `npx storybook@latest upgrade`
