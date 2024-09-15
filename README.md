@@ -26,4 +26,6 @@ The following fields are used
     -   If the `type` is `lib`, this indicates the programming language for the library:
         -   `py`: Python library
         -   `ts`: TypeScript library
+    -   If the `type` is `dev`, this can be:
+        -   `dc`: Dev Container repository
 -   `<short-description>`: a short description of the repository software in lowercase separated by dashes. For example: `authentication-manager`.
