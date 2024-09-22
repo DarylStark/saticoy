@@ -18,7 +18,6 @@ The following fields are used
 -   `<type>`: the type inidicates what kind of software is created within this repository. It is always three letters and can be any of these:
     -   `svc`: a microservice. The repository contains the code for the microservice and a `Dockerfile` or `Containerfile` to create a containerimage for the microservice.
     -   `lib`: a library that can be used by other Saticoy microservices. This can be a library to interact with specific database services, for instance.
-    -   `dev`: a developmenttool, like a GitHub Actions workflow or a code template.
 -   `<specific-type>`: the specific type is a two letter identifier that specifies the subtype:
     -   If the `type` is `svc`, this can be:
         -   `fe`: front-end service
@@ -26,6 +25,4 @@ The following fields are used
     -   If the `type` is `lib`, this indicates the programming language for the library:
         -   `py`: Python library
         -   `ts`: TypeScript library
-    -   If the `type` is `dev`, this can be:
-        -   `dc`: Dev Container repository
 -   `<short-description>`: a short description of the repository software in lowercase separated by dashes. For example: `authentication-manager`.
